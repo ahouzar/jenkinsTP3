@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Etape de build"
-                sh 'python22 --version'
+                sh 'python2 --version'
             }
         }
         stage('Test') {
